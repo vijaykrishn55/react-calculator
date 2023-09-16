@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,700;1,100&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.calci {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background-color: gainsboro;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  box-shadow: 0 0 50px #bf32e2;
+}
+.calci h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+.calci button {
+  padding: 5px;
+  width: 30px;
+  background-color: black;
+  color: white;
+}
+.op {
+  display: flex;
+  gap: 20px;
+}
+input[type="text"] {
+  color: black;
+  font-weight: 600;
+}
+::placeholder {
+  color: black;
+}
+.results {
+  color: blue;
+  font-weight: 800;
+  font-size: larger;
+}
